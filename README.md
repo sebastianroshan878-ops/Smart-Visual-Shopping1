@@ -118,8 +118,9 @@ To enable real-time Google Lens reverse image search:
 ### 4. Running the Application
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
+
 
 The app will be accessible at `http://localhost:8501`.
 
