@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large generated files and models
+data/
+*.pkl
+*.h5
+*.pth
+*.pt
+*.onnx
+
+# Allow project specific keras model if present
+!trained_model.keras
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+env.bak/
+venv.bak/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Secrets & credentials
+.env
+.env.*
+.streamlit/secrets.toml
+!.streamlit/secrets.toml.example
